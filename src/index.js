@@ -1,6 +1,6 @@
 
 export default function ({ router, dom }) {
-    router.addListener('courses.announcements.new', params => {
+    router.addListener(['courses.announcements.new', 'courses.discussions.new'], params => {
 
         dom.onElementAdded('input[type="hidden"][name="specific_sections"]', specificSections => {
             let selector = '[name="specific_sections"] + span > span > span > span:first-child + span > span > span > button';
