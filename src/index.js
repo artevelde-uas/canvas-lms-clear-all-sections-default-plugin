@@ -1,5 +1,7 @@
+import { router, dom } from '@artevelde-uas/canvas-lms-app';
 
-export default function ({ router, dom }) {
+
+export default function () {
 
     router.addListener(['courses.announcements.new', 'courses.discussions.new'], params => {
         dom.onElementAdded('input[type="hidden"][name="specific_sections"]', specificSections => {
