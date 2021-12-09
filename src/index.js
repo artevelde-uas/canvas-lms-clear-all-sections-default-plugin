@@ -3,7 +3,7 @@ export default function ({ router, dom }) {
 
     router.addListener(['courses.announcements.new', 'courses.discussions.new'], params => {
         dom.onElementAdded('input[type="hidden"][name="specific_sections"]', specificSections => {
-            let selector = '[name="specific_sections"] + span > span > span > span:first-child + span > span > span > button';
+            let selector = '[name="specific_sections"] + span > label > span > span > span:first-child + span > span > span > span > button';
             let allSectionsButton = specificSections.parentElement.querySelector(selector);
             let discussionTitle = document.getElementById('discussion-title');
 
