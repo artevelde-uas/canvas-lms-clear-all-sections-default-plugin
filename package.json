@@ -1,0 +1,18 @@
+{
+  "name": "@artevelde-uas/canvas-lms-clear-all-sections-default-plugin",
+  "version": "0.1.0",
+  "description": "Remove the 'All sections' default from the 'Post to' field when creating new announcements or assignments",
+  "keywords": [
+    "Canvas LMS"
+  ],
+  "repository": "https://github.com/artevelde-uas/canvas-lms-clear-all-sections-default-plugin.git",
+  "author": "Renaat De Muynck <renaat.demuynck@arteveldehs.be>",
+  "license": "ISC",
+  "module": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "peerDependencies": {
+    "@artevelde-uas/canvas-lms-app": "^0.32.0"
+  }
+}
