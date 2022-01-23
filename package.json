@@ -1,6 +1,6 @@
 {
   "name": "@artevelde-uas/canvas-lms-clear-all-sections-default-plugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Remove the 'All sections' default from the 'Post to' field when creating new announcements or assignments",
   "keywords": [
     "Canvas LMS"
