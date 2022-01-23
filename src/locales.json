@@ -1,0 +1,26 @@
+{
+    "en": {
+        "package": {
+            "title": "Clear default value from 'Post to/Assign to' fields",
+            "description": "Remove the default value 'Everyone/All sections' from the 'Post to/Assign to' field when creating new announcements, discussions or assignments. Avoids accidentally publishing content for the wrong sections, by forcing teachers to explicitly select a section."
+        }
+    },
+    "nl": {
+        "package": {
+            "title": "Wis de standaardwaarde uit de velden 'Plaatsen in/Toewijzen aan'",
+            "description": "Verwijder de standaardwaarde 'Iedereen/Alle secties' uit het veld 'Plaatsen in/Toewijzen aan' bij het maken van nieuwe aankondigingen, discussies of opdrachten. Voorkomt het per ongeluk publiceren van inhoud voor de verkeerde secties, door docenten te dwingen expliciet een sectie te selecteren."
+        }
+    },
+    "fr": {
+        "package": {
+            "title": "Effacer la valeur par défaut des champs «Publier à/Attribuer à»",
+            "description": "Supprimez la valeur par défaut «Tous/Toutes les sections» du champ «Publier à/Attribuer à» lors de la création de nouvelles annonces, discussions ou tâches. Évite de publier accidentellement du contenu pour les mauvaises sections, en forçant les enseignants à sélectionner explicitement une section."
+        }
+    },
+    "de": {
+        "package": {
+            "title": "Standardwert aus den Feldern 'Posten an/Zuweisen' löschen",
+            "description": "Entfernen Sie den Standardwert 'Jeder/Alle Abschnitte' aus dem Feld 'Posten an/Zuweisen', wenn Sie neue Ankündigungen, Diskussionen oder Aufgaben erstellen. Verhindert versehentliches Veröffentlichen von Inhalten für die falschen Abschnitte, indem Lehrkräfte gezwungen werden, einen Abschnitt explizit auszuwählen."
+        }
+    }
+}
